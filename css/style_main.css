@@ -1,0 +1,14 @@
+*{
+  float: left;
+}
+
+.logo img{
+  width: 200px;
+  height: 52px;
+}
+.box_search input{
+  width: 400px;
+  height: 40px;
+  margin-top: 8px;
+  margin-left: 20px;
+}
