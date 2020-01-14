@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "dotum", "돋움";
+  src:url(css/fonts/dotum.ttc) format(ttc);
+  font-size: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url(css/fonts/Helvetica.ttf) format(truetype);
+  font-size: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "AppleSDGothicNeoR";
+  src:url(css/fonts/AppleSDGothicNeoR.ttf) format(truetype);
+  font-size: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "AppleSDGothicNeoB";
+  src: url(css/fonts/AppleSDGothicNeoB.ttf) format(truetype);
+  font-size: normal;
+  font-weight: bold;
+}
