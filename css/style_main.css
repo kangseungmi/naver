@@ -124,6 +124,7 @@ body{
 }
 .newscast_top h3{
   float: left;
+  margin: 10px;
 }
 .newscast_top ul{
   margin: 0;
