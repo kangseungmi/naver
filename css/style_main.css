@@ -118,16 +118,21 @@ body{
   display: block;
   float: left;
   width: 100%;
+  height: 44px;
   border: 1px solid #dee3ed;
   background: #fff;
   margin: 0 0 8px 0;
 }
-.newscast_top h3{
+.newscast_top .newscast_news{
   float: left;
-  margin: 10px;
+  margin: 15px;
+}
+.newscast_top .newscast_news h3{
+  margin: 0;
+  padding: 0;
 }
 .newscast_top ul{
-  margin: 0;
+  margin: 15px 0 0 520px;
   padding: 0;
 }
 .newscast_top ul li{
@@ -136,13 +141,21 @@ body{
   list-style: none;
   font-size: 14px;
   font-weight: 900;
+  margin-right: 10px;
 }
 .newscast_top ul li a{
   text-decoration: none;
   color: #666;
 }
-.link_point a{
+.newscast_link .link_point{
   color: #5ecb6b;
+}
+.newsstand{
+  display: block;
+  float: left;
+  width: 100%;
+  border: 1px solid #dee3ed;
+  background: #fff;
 }
 .tabmenu{
   margin: 0;
