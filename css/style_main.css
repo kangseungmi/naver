@@ -165,7 +165,34 @@ body{
 .stand_menu div{
   display: block;
   float: left;
-  margin: 15px 0 0 0;
+  margin: 0;
+  padding: 0;
+}
+.stand_menu div a{
+  text-decoration: none;
+}
+.stand_menu .stand_menu_title{
+  margin: 15px 10px 15px 15px;
+}
+.stand_menu a{
+  font-size: 14px;
+  color: #000;
+  font-weight: 900;
+}
+.stand_menu .stand_menu_subtitle{
+  margin: 15px 10px 15px 0;
+}
+.stand_menu .stand_menu_bar{
+  margin: 15px 15px 15px 0;
+  width: 1px;
+  height: 15px;
+  background: #e5e5e5;
+}
+.stand_menu .stand_menu_mynews{
+  margin: 15px 15px 15px 0;
+}
+.stand_menu .stand_menu_mynews a{
+  color: #666;
 }
 .tabmenu{
   margin: 0;
