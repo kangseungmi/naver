@@ -198,7 +198,13 @@ div{
 .stand_menu .stand_menu_mynews a{
   color: #666;
 }
-.stand_btn div{
+.stand_menu .stand_btn{
+  position: relative;
+  left: 280px;
+}
+.stand_btn a{
+  display: block;
+  float: left;
   width: 32px;
   height: 44px;
   margin: 0 10px 0 0;
