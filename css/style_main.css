@@ -209,3 +209,19 @@ div{
   height: 44px;
   margin: 0 10px 0 0;
 }
+.stand_panel{
+  margin: 0;
+  padding: 0;
+  width: 740px;
+  height: 200px;
+  overflow: hidden;
+}
+.stand_panel ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.stand_panel ul li{
+  display: block;
+  float: left;
+}
