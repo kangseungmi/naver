@@ -213,7 +213,7 @@ div{
   margin: 0;
   padding: 0;
   width: 740px;
-  height: 200px;
+  height: 203px;
   overflow: hidden;
 }
 .stand_panel ul{
@@ -238,4 +238,57 @@ div{
   padding: 21px 0 22px 0;
   max-width: 122px;
   max-height: 24px;
+}
+.column_right{
+  position: relative;
+  float: right;
+  width: 332px;
+}
+.section_login{
+  position: relative;
+  height: 120px;
+  border: 1px solid #dee3ed;
+  background: #fff;
+}
+.section_login .lg_local{
+  padding: 15px 25px;
+  text-align: left;
+}
+.lg_local .lg_locla_text{
+  color: #888;
+  font-size: 12px;
+  margin: 0;
+}
+.lg_local .lg_btn_login{
+  display: block;
+  margin: 12px 0 0 0;
+  width: 280px;
+  height: 37px;
+  background: #5ecb6b;
+  border-radius: 2px;
+  text-decoration: none;
+}
+.lg_local .lg_btn_login .lg_btn_login_text{
+  display: block;
+  padding: 10px 0 11px 0;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+.lg_link{
+  display: block;
+  width: 280px;
+  height: 38px;
+  padding: 0 25px 0 25px;
+  overflow: hidden;
+}
+.lg_link a{
+  text-decoration: none;
+  font-size: 12px;
+  color: #888;
+}
+.lg_link_join{
+  display: block;
+  float: right;
 }
