@@ -292,3 +292,27 @@ div{
   display: block;
   float: right;
 }
+.section_timesquare{
+  position: relative;
+  height: 142px;
+  border: 1px solid #dee3ed;
+  background: #fff;
+  margin: 8px 0 0 0;
+}
+.timesquare_head{
+  display: block;
+  height: 33px;
+  padding: 0 0 0 15px;
+  border-bottom: 1px solid #f1f3f6;
+}
+.timesquare_head a,img{
+  display: block;
+  float: left;
+  text-decoration: none;
+}
+.timesquare_head .area_head{
+  display: block;
+  width: 208px;
+  height: 17px;
+  padding: 9px 0 7px 0;
+}
