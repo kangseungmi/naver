@@ -360,3 +360,58 @@ div{
   margin: 0;
   padding: 0;
 }
+.timesquare_contents{
+  display: block;
+  float: left;
+  width: 298px;
+  padding: 17px 16px 0 16px;
+  margin: 0;
+}
+.timesquare_contents .hs_ct{
+  display: block;
+  margin: 0;
+  padding: 3px 120px 0 0;
+  list-style: none;
+}
+.timesquare_contents .hs_ct .hs_ct_list{
+  margin: 0;
+  padding: 0;
+}
+.timesquare_contents .hs_ct .hs_ct_list .hs_ct_item1{
+  display: block;
+  padding: 2px 0 0 0;
+}
+.timesquare_contents .hs_ct .hs_ct_list .hs_ct_item2{
+  display: block;
+  padding: 10px 0 0 0;
+}
+.timesquare_contents .hs_ct .hs_ct_list a{
+  display: block;
+  text-decoration: none;
+  color: #333;
+  font-size: 12px;
+}
+.timesquare_contents .hs_ct .hs_ct_list .hs_ct_item_link .hs_ico_bullet{
+  display: block;
+  float: left;
+  width: 2px;
+  height: 2px;
+  border-radius: 3px;
+  background: #888;
+  margin: 6px 4px 6px 0;
+}
+.timesquare_contents .hs_ct .hs_ct_img{
+  position: absolute;
+  display: block;
+  top: 50px;
+  right: 16px;
+}
+.section_add{
+  position: absolute;
+  width: 330px;
+  height: 148px;
+  right: 0;
+  top: 285px;
+  display: block;
+  border: 1px solid #dee3ed;
+}
