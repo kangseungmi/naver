@@ -200,7 +200,19 @@ div{
 }
 .stand_menu .stand_btn{
   position: relative;
-  left: 280px;
+  left: 268px;
+}
+.stand_menu .stand_paging{
+  position: relative;
+  left: 268px;;
+  margin: 0;
+}
+.stand_menu .stand_paging a{
+  display: block;
+  float: left;
+  width: 44px;
+  height: 44px;
+  border-left: 1px solid #f3f5f7;
 }
 .stand_btn a{
   display: block;
@@ -348,14 +360,14 @@ div{
 .timesquare_head .area_btn{
   position: absolute;
   top: 0;
-  right: -0.5px;
+  right: 0;
   width: 78px;
 }
 .timesquare_head .area_btn a{
   display: block;
   width: 37px;
   height: 32px;
-  border: 1px solid #f3f5f7;
+  border-left:  1px solid #f3f5f7;
   overflow: hidden;
   margin: 0;
   padding: 0;
