@@ -427,3 +427,62 @@ div{
   display: block;
   border: 1px solid #dee3ed;
 }
+.section_themecast{
+  position: relative;
+  float: left;
+  width: 740px;
+  height: 884px;
+  border: 1px solid #dee3ed;
+  background: #fff;
+  margin: 8px 0 0 0;
+  padding: 0;
+}
+.section_themecast .tc_category{
+  overflow: hidden;
+  height: 44px;
+  border-bottom: 1px solid #dee3ed;
+}
+.section_themecast .tc_category .tc_category_list{
+  display: block;
+  list-style: none;
+  position: absolute;
+  width: 588px;
+  height: 24px;
+  top: 0;
+  left: 45px;
+  margin: 0;
+  padding: 11px 0 10px 17px;
+}
+.section_themecast .tc_category .tc_category_list .tc_category_list_item{
+  display: block;
+  float: left;
+  font-size: 14px;
+  padding: 4px 16.9px 6px 0;
+}
+.section_themecast .tc_category .tc_category_list .tc_category_list_item a{
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.tc_category_list_btn{
+  position: relative;
+}
+.tc_category_list_btn .tc_category_ico1{
+  display: block;
+  float: left;
+  width: 44px;
+  height: 44px;
+  border-right: 1px solid #dee3ed;
+}
+.tc_category_list_btn_paging{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.tc_category_list_btn .tc_category_ico2{
+  display: block;
+  float: left;
+  width: 44px;
+  height: 44px;
+  border-left: 1px solid #dee3ed;
+}
