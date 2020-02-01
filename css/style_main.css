@@ -447,11 +447,12 @@ div{
   list-style: none;
   position: absolute;
   width: 588px;
-  height: 24px;
+  height: 20px;
   top: 0;
   left: 45px;
   margin: 0;
-  padding: 11px 0 10px 17px;
+  padding: 10px 0 11px 17px;
+  overflow: hidden;
 }
 .section_themecast .tc_category .tc_category_list .tc_category_list_item{
   display: block;
