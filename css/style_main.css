@@ -487,3 +487,21 @@ div{
   height: 44px;
   border-left: 1px solid #dee3ed;
 }
+.section_themecast .tc_pannel{
+  display: block;
+}
+.section_themecast .tc_pannel .section_tc_pannel{
+  position: relative;
+  padding: 18px 2px 3px 16px;
+  margin: 0;
+}
+.section_themecast .tc_pannel .section_tc_pannel .tp_title{
+  position: relative;
+  float: left;
+  margin-right: 14px;
+  margin-bottom: 19px;
+  padding: 23px 6px 0 18px;
+  width: 142px;
+  height: 162px;
+  background-color: #829c00;;
+}
