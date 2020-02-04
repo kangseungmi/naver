@@ -503,5 +503,43 @@ div{
   padding: 23px 6px 0 18px;
   width: 142px;
   height: 162px;
-  background-color: #829c00;;
+  background-color: #829c00;
+  list-style: none;
+}
+.tp_title .tp_subtitle{
+  position: relative;
+  height: 20px;
+  float: left;
+  font-size: 20px;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.tp_title .tp_title_bar{
+  position: relative;
+  display: block;
+  width: 13px;
+  height: 2px;
+  margin: 37px 0 13px 0;
+  background-color: #fff;
+  opacity: 50%;
+}
+.tp_title .tp_sub_section{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.tp_title .tp_sub_section .tp_submenu{
+  float: left;
+  padding-top: 4px;
+  width: 71px;
+  color: #fff;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.tp_title .tp_sub_section .tp_submenu a{
+  text-decoration: none;
+  color: #fff;
 }
