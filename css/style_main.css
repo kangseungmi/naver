@@ -648,3 +648,74 @@ div{
   background-color: #dee3ed;
   margin: 5px 5px;
 }
+.section_tc_pannel_sub{
+  position: relative;
+  float: left;
+  margin-bottom: 19px;
+  width: 706px;
+  height: 185px;
+}
+.section_tc_pannel_sub .tc_pannel_subtitle{
+  overflow: hidden;
+  min-height: 16px;
+  color: #222;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+}
+.section_tc_pannel_sub .tp_sub_list{
+  list-style: none;
+  margin: 0;
+  padding-top: 11px;
+  padding-left: 0;
+}
+.section_tc_pannel_sub .tp_sub_con{
+  overflow-y: hidden;
+  display: block;
+  float: left;
+  width: 339px;
+  height: 80px;
+  padding-bottom: 10px;
+  padding-right: 14px;
+}
+.section_tc_pannel_sub .tp_sub_con .tp_sub_con_link{
+  position: relative;
+  display: block;
+  float: left;
+  width: 115px;
+  height: 70px;
+}
+.section_tc_pannel_sub .tp_sub_con .tp_sub_con_link .tp_sub_con_img{
+  width: 115px;
+  height: 70px;
+}
+.section_tc_pannel_sub .tp_sub_con .tp_sub_con_text{
+  display: inline-block;
+  float: left;
+  padding-top: 7px;
+  padding-bottom: 8px;
+  padding-left: 11px;
+  width: 213px;
+  overflow: hidden;
+}
+.section_tc_pannel_sub .tp_sub_con .tp_sub_con_text .tp_sub_con_title .tp_subtext_clk{
+  display: block;;
+  overflow: hidden;
+  max-height: 36px;
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #000;
+}
+.section_tc_pannel_sub .tp_sub_con .tp_sub_con_text .tp_sub_o{
+  display: block;
+  overflow: hidden;
+  padding-top: 4px;
+  color: #888;
+  font-size: 12px;
+  line-height: 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
