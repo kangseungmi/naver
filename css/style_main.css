@@ -719,3 +719,12 @@ div{
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+.section_shoppingcast{
+  position: relative;
+  float: right;
+  width: 330px;
+  height: 882px;
+  border: 1px solid #dee3ed;
+  background: #fff;
+  margin-top: 8px;
+}
