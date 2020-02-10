@@ -812,3 +812,11 @@ div{
   border-radius: 10px;
   margin: 8px 3px;
   background-color: #ccc;
+}
+.shop_contents .shop_page{
+  position: relative;
+  color: #888;
+  font-size: 11px;
+  line-height: 25px;
+  padding: 8px 16px;
+}
