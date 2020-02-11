@@ -820,3 +820,28 @@ div{
   line-height: 25px;
   padding: 8px 16px;
 }
+.shop_contents .shop_page em{
+  position: absolute;
+  top: 8px;
+  right: 76px;
+  font-style: normal;
+}
+.shop_contents .shop_page em strong{
+  color: #333;
+  font-weight: bold;
+}
+.shop_contents .shop_page .shop_page_btn{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+.shop_contents .shop_page .shop_page_btn a{
+  display: block;
+  float: left;
+  width: 14px;
+  height: 18px;
+  padding: 5px 0 0 9px;
+  border: 1px solid #e3e7ee;
+  background-color: #fff;
+  cursor: pointer;
+}
