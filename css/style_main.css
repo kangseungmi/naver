@@ -818,7 +818,6 @@ div{
   color: #888;
   font-size: 11px;
   line-height: 25px;
-  padding: 8px 16px;
 }
 .shop_contents .shop_page em{
   position: absolute;
@@ -844,4 +843,38 @@ div{
   border: 1px solid #e3e7ee;
   background-color: #fff;
   cursor: pointer;
+}
+.shop_contents .product_list{
+  position: relative;
+  padding:43px 8px 0 16px;
+  margin: 0;
+  list-style: none;
+}
+.product_list .product_item{
+  position: relative;
+  float: left;
+  margin-right: 8px;
+  width: 94px;
+}
+.product_list .product_item .product_item_clk{
+  display: block;
+}
+.product_list .product_item .product_item_clk .product_item_img{
+  width: 94px;
+  height: 117px;
+  overflow: hidden;
+}
+.product_list .product_item .product_item_text{
+  display: block;
+  float: left;
+  padding-top: 8px;
+  margin: 0;
+  height: 49px;
+  text-align: center;
+  overflow: hidden;
+}
+.product_list .product_item .product_item_text span{
+  font-size: 12px;
+  line-height: 16px;
+  color: #888;
 }
