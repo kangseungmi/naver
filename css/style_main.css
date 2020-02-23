@@ -846,25 +846,27 @@ div{
 }
 .shop_contents .product_list{
   position: relative;
+  display: block;
   padding:43px 8px 0 16px;
   margin: 0;
+  height: 522px;
   list-style: none;
 }
-.product_list .product_item{
+.shop_contents .product_list .product_item{
   position: relative;
   float: left;
   margin-right: 8px;
   width: 94px;
 }
-.product_list .product_item .product_item_clk{
+.shop_contents .product_list .product_item .product_item_clk{
   display: block;
 }
-.product_list .product_item .product_item_clk .product_item_img{
+.shop_contents .product_list .product_item .product_item_clk .product_item_img{
   width: 94px;
   height: 117px;
   overflow: hidden;
 }
-.product_list .product_item .product_item_text{
+.shop_contents .product_list .product_item .product_item_text{
   display: block;
   float: left;
   padding-top: 8px;
@@ -873,8 +875,52 @@ div{
   text-align: center;
   overflow: hidden;
 }
-.product_list .product_item .product_item_text span{
+.shop_contents product_list .product_item .product_item_text span{
   font-size: 12px;
   line-height: 16px;
   color: #888;
+}
+.shop_adbanner{
+  position: relative;
+  padding-right: 16px;
+  padding-left: 16px;
+  border-top: 1px solid #f1f3f6;
+}
+.shop_adbanner .shop_adbanner_head{
+  display: block;
+  padding-top: 17px;
+  height: 29px;
+  margin: 0;
+}
+.shop_adbanner .shop_adbanner_head .shop_adbanner_title{
+  position: relative;
+  padding-left: 9px;
+  color: #000;
+  letter-spacing: -1px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  margin: 0;
+}
+.shop_adbanner .shop_adbanner_head .shop_adbanner_title .shop_adbanner_bar{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -7px;
+  width: 3px;
+  height: 12px;
+  background: #9891e5;
+}
+.shop_adbanner .shop_adbanner_head .shop_adbanner_btn{
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #dee3ed;
+}
+.shop_adbanner .shop_adbanner_list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
