@@ -723,7 +723,7 @@ div{
   position: relative;
   float: right;
   width: 330px;
-  height: 882px;
+  height: 884px;
   border: 1px solid #dee3ed;
   background: #fff;
   margin-top: 8px;
@@ -921,6 +921,35 @@ div{
 }
 .shop_adbanner .shop_adbanner_list{
   margin: 0;
-  padding: 0;
+  padding: 2px 0 0 0;
   list-style: none;
+}
+.shop_adbanner .shop_adbanner_list .shop_adbanner_item:first-child{
+  padding-top: 0px;
+}
+.shop_adbanner .shop_adbanner_list .shop_adbanner_item{
+  padding-top: 8px;
+}
+.shop_adbanner .shop_adbanner_list .shop_adbanner_item .shop_adbanner_clk{
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  color: #444;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  letter-spacing: -1px;
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration: none;
+}
+.shop_adbanner .shop_adbanner_list .shop_adbanner_item .shop_adbanner_clk .shop_adbanner_brand{
+  font-style: normal;
+  padding-right: 14px;
+  color: #8974d7;
+}
+.shop_adbanner .shop_adbanner_list .shop_adbanner_item .shop_adbanner_clk .shop_adbanner_text1{
+  color: #888;
+}
+.shop_adbanner .shop_adbanner_list .shop_adbanner_item .shop_adbanner_clk .shop_adbanner_text2{
+  color: #00ab33;
 }
